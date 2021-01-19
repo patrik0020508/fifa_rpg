@@ -10,7 +10,7 @@ let available_points = 0;
 
 let lvl = 0;
 
-let lvl_szint=[
+let name=[
     ["Az új srác"],
     ["A feltörekvő reménység"],
     ["A befutott sztár"],
@@ -32,7 +32,8 @@ let profile_stats = {
     "endurance": document.getElementById("profile_endurance"),
     "deffense": document.getElementById("profile_deffense"),
     "experience": document.getElementById("profile_experience"),
-    "next_level": document.getElementById("next_lvl")
+    "next_level": document.getElementById("next_lvl"),
+    "name":document.getElementById("name")
 }
 
 function refreshProfileStats(){
@@ -44,6 +45,7 @@ function refreshProfileStats(){
     profile_stats.experience.innerHTML = stats.experience;
     profile_stats.description.innerHTML = lvl_description[lvl][0];
     profile_stats.next_level.innerHTML = 10;
+    profile_stats.name.innerHTML=name[lvl];
     display_addBtns();
 }
 

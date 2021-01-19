@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
 body{
     margin: 0;
     background-color: #0120ff;
     color: white;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Bodoni Moda', serif;
     font-size: 1.2em;
 }
 
@@ -50,8 +50,8 @@ h1{
 }
 
 #profile_pics{
-    width: 200px;
-    height: 300px;
+    width: 80%;
+    height: 100%;
     margin-left: calc(50% - 100px);
 }
 
